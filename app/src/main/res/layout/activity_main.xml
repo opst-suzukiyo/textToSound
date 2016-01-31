@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/startMelody"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Melody!"
+        android:layout_marginTop="218dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="文字列を入力："
+        android:id="@+id/textView"
+        android:layout_alignBottom="@+id/startMelody"
+        android:layout_toLeftOf="@+id/editText"
+        android:layout_toStartOf="@+id/editText"
+        android:layout_marginBottom="72dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:id="@+id/editText"
+        android:layout_alignLeft="@+id/startMelody"
+        android:layout_alignStart="@+id/startMelody"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignRight="@+id/startMelody"
+        android:layout_alignEnd="@+id/startMelody" />
+
+</RelativeLayout>
