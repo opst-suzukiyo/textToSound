@@ -10,7 +10,7 @@ public class SoundDto {
 	 * @param source
 	 * @param length
 	 */
-	public SoundDto(short[] source, double length) {
+	public SoundDto(short[] source) {
 		this.sound = source;
 	}
 	
